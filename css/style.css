@@ -13,11 +13,122 @@
 
 }
 .header-flex-container{
-
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 .header-spacing{
-
+    padding: 15px 0;
 }
 .menu-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+}
+.icons span{
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main img{
+    height: 650px;
+}
+.main-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-spacings{
+    margin-top: 40px;
+}
+.card-spacings{
+    width: calc(95% / 3);
+}
+.discounted-price{
+    color: red;
+    font-weight: 700;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.card{
+    display: inline-block;
+    position: relative;
+}
+.discount{
+    background-color: red;
+    position: absolute;
+    font-size: 15px;
+    padding: 3px 5px;
+    bottom: 40px;
+    left: 0;
+    color: white;
+}
+.sustainble{
+    background-color: green;
+    position: absolute;
+    font-size: 15px;
+    padding: 3px 5px;
+    bottom: 40px;
+    left: 48px;
+    color: white;
+}
+.favourite{
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    font-size: 30px;
+    right: 0px;
+    top: 10px;
+}
+.card:hover .second-image{
+    position: absolute;
+    opacity: 1;
+}
+.second-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.logo{
+    height: 30px;
+}
+footer{
+    margin-top: 40px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-background{
+    background-color: black;
+    color: white;
+}
+.footer-info{
+    display: flex;
+}
+.footer-spacing{
+    padding: 30px 0;
+}
+.social{
+    display: flex;
+    padding: 10px 10px;
+}
+.margin-right{
+    margin-right: 10px;
 }
